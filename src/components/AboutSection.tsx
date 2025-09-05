@@ -57,7 +57,7 @@ export function AboutSection() {
                 </p>
                 <p className="text-foreground/80 leading-relaxed font-medium">
                   Me especializo en encontrar patrones ocultos en grandes volúmenes de datos y crear 
-                  visualizaciones que comunican insights complejos de manera clara y actionable. 
+                  visualizaciones que comunican insights complejos de manera clara y útil. 
                   Cada proyecto es una oportunidad para generar un impacto positivo y ayudar a las 
                   organizaciones a tomar decisiones informadas e inteligentes.
                 </p>
@@ -115,7 +115,7 @@ export function AboutSection() {
                       description: "Implementar procesos automatizados para mejorar la eficiencia en el análisis de datos.",
                       color: "bg-pixel-pink"
                     },
-                    
+
                   ].map((interest, index) => (
                     <motion.div 
                       key={index}
