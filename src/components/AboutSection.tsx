@@ -53,20 +53,16 @@ export function AboutSection() {
               <CardContent className="space-y-4">
                 <p className="text-foreground/80 leading-relaxed font-medium">
                   Mi pasión por los datos comenzó durante mis estudios universitarios, cuando descubrí 
-                  el poder de transformar números en historias significativas. Con más de 3 años de 
-                  experiencia en análisis de datos, he trabajado en diversos sectores desde retail 
-                  hasta tecnología.
+                  el poder de transformar hechos en historias significativas. 
                 </p>
                 <p className="text-foreground/80 leading-relaxed font-medium">
                   Me especializo en encontrar patrones ocultos en grandes volúmenes de datos y crear 
                   visualizaciones que comunican insights complejos de manera clara y actionable. 
                   Cada proyecto es una oportunidad para generar un impacto positivo y ayudar a las 
-                  organizaciones a tomar decisiones informadas.
+                  organizaciones a tomar decisiones informadas e inteligentes.
                 </p>
                 <p className="text-foreground/80 leading-relaxed font-medium">
-                  Creo firmemente que los datos tienen el poder de cambiar el mundo, y mi misión es 
-                  democratizar el acceso a insights valiosos a través de análisis rigurosos y 
-                  presentaciones visuales impactantes.
+                  Cuando no estoy trabajando en código, me encanta leer y aprender cosas nuevas, ya sea sobre tecnología, datos o historias que me inspiren a seguir creciendo.
                 </p>
               </CardContent>
             </Card>
@@ -119,11 +115,7 @@ export function AboutSection() {
                       description: "Implementar procesos automatizados para mejorar la eficiencia en el análisis de datos.",
                       color: "bg-pixel-pink"
                     },
-                    {
-                      title: "Ética en IA:",
-                      description: "Promover el uso responsable de datos y algoritmos para crear soluciones justas e inclusivas.",
-                      color: "bg-pixel-yellow"
-                    }
+                    
                   ].map((interest, index) => (
                     <motion.div 
                       key={index}
