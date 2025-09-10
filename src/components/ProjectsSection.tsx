@@ -4,13 +4,15 @@ import { Badge } from './ui/badge';
 import { ExternalLink, Github } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { motion } from 'motion/react';
+/*import project1 from '../assets/project1.png';*/
+/*import project1 from '../assets/project2.png';*/
 
 export function ProjectsSection() {
   const projects = [
     {
       title: 'Dashboard de Ventas E-commerce',
       description: 'Análisis completo del comportamiento de compra y tendencias de ventas para una plataforma de e-commerce. Incluye segmentación de clientes, análisis de cohortes y predicción de churn.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwdmlzdWFsaXphdGlvbiUyMGRhc2hib2FyZCUyMHByb2plY3R8ZW58MXx8fHwxNzU2OTA3MjYwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      /*image: project1,*/
       technologies: ['Python', 'Pandas', 'Tableau', 'SQL', 'PostgreSQL'],
       demoLink: '#',
       githubLink: '#'
@@ -18,6 +20,7 @@ export function ProjectsSection() {
     {
       title: 'Modelo Predictivo de Demanda',
       description: 'Desarrollo de un modelo de machine learning para predecir la demanda de productos basado en datos históricos, estacionalidad y variables externas como el clima y eventos especiales.',
+      /*image: project2,*/
       image: 'https://images.unsplash.com/photo-1526379095098-d400fd0bf935?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxweXRob24lMjBhbmFseXRpY3MlMjBjb2RlJTIwc2NyZWVufGVufDF8fHx8MTc1NjkwNzI2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       technologies: ['Python', 'Scikit-learn', 'TensorFlow', 'Jupyter', 'Plotly'],
       demoLink: '#',

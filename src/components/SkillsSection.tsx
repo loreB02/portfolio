@@ -20,7 +20,7 @@ export function SkillsSection() {
     {
       title: 'Herramientas de BI',
       icon: BarChart3,
-      gradient: 'from-pixel-orange to-pixel-yellow',
+      gradient: 'from-pixel-orange to-pixel-pink',
       skills: ['Tableau', 'Power BI', 'Looker', 'Qlik Sense', 'Google Analytics']
     },
     {

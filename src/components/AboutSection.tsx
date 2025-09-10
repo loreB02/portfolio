@@ -51,17 +51,11 @@ export function AboutSection() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-foreground/80 leading-relaxed font-medium">
+                <p className="text-lg text-foreground/80 leading-relaxed font-medium">
                   Mi pasión por los datos comenzó durante mis estudios universitarios, cuando descubrí 
                   el poder de transformar hechos en historias significativas. 
-                </p>
-                <p className="text-foreground/80 leading-relaxed font-medium">
-                  Me especializo en encontrar patrones ocultos en grandes volúmenes de datos y crear 
-                  visualizaciones que comunican insights complejos de manera clara y útil. 
-                  Cada proyecto es una oportunidad para generar un impacto positivo y ayudar a las 
-                  organizaciones a tomar decisiones informadas e inteligentes.
-                </p>
-                <p className="text-foreground/80 leading-relaxed font-medium">
+                </p>             
+                <p className="text-lg text-foreground/80 leading-relaxed font-medium">
                   Cuando no estoy trabajando en código, me encanta leer y aprender cosas nuevas, ya sea sobre tecnología, datos o historias que me inspiren a seguir creciendo.
                 </p>
               </CardContent>
