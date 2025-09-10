@@ -1,0 +1,46 @@
+Para Futuro
+{/* Experience Stats */}
+        <motion.div 
+          className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          <div className="text-center p-6 bg-gradient-to-br from-pixel-purple/10 to-pixel-cyan/10 rounded-xl border border-pixel-purple/20">
+            <motion.div 
+              className="text-3xl font-bold text-pixel-purple mb-2"
+              initial={{ scale: 0 }}
+              whileInView={{ scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              viewport={{ once: true }}
+            >
+              3+
+            </motion.div>
+            <p className="text-foreground/80 font-medium">Años de Experiencia</p>
+          </div>
+          <div className="text-center p-6 bg-gradient-to-br from-pixel-orange/10 to-pixel-pink/10 rounded-xl border border-pixel-orange/20">
+            <motion.div 
+              className="text-3xl font-bold text-pixel-orange mb-2"
+              initial={{ scale: 0 }}
+              whileInView={{ scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              viewport={{ once: true }}
+            >
+              15+
+            </motion.div>
+            <p className="text-foreground/80 font-medium">Proyectos Completados</p>
+          </div>
+          <div className="text-center p-6 bg-gradient-to-br from-pixel-cyan/10 to-pixel-green/10 rounded-xl border border-pixel-cyan/20">
+            <motion.div 
+              className="text-3xl font-bold text-pixel-cyan mb-2"
+              initial={{ scale: 0 }}
+              whileInView={{ scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
+              viewport={{ once: true }}
+            >
+              2
+            </motion.div>
+            <p className="text-foreground/80 font-medium">Empresas</p>
+          </div>
+        </motion.div>

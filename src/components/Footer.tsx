@@ -13,6 +13,8 @@ export function Footer() {
     { label: 'Inicio', id: 'inicio' },
     { label: 'Sobre Mí', id: 'sobre-mi' },
     { label: 'Habilidades', id: 'habilidades' },
+    { label: 'Experiencia', id: 'experiencia' },
+    { label: 'Educación', id: 'educacion' },
     { label: 'Proyectos', id: 'proyectos' },
     { label: 'Contacto', id: 'contacto' },
   ];
